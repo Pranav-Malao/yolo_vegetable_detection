@@ -2,7 +2,7 @@ import streamlit as st
 import os
 
 # Specify the folder path
-folder_path = "./yolo_models_testing/annotated_images"
+folder_path = ".annotated_images"
 
 # Get a list of image files
 image_files = [f for f in os.listdir(folder_path) if f.endswith(".jpg") or f.endswith(".png")]

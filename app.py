@@ -19,11 +19,11 @@ if uploaded_file:
     frame = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR) # Convert PIL RGB to OpenCV BGR
 
     # --- User-defined paths ---
-    MODEL_PATH = './yolo_models_testing/final_11s.pt'  # Replace with the actual path to your YOLO model file
+    MODEL_PATH = './final_11s.pt'  # Replace with the actual path to your YOLO model file
     MIN_CONF_THRESHOLD = 0.5
     DISPLAY_RESOLUTION = '640x640'  # Set to '640x480' or similar if you want to resize the display
     SAVE_ANNOTATED_IMAGE = True
-    OUTPUT_IMAGE_PATH = os.path.join("./yolo_models_testing/annotated_images", f"annotated_{uploaded_file.name}")
+    OUTPUT_IMAGE_PATH = os.path.join("./annotated_images", f"annotated_{uploaded_file.name}")
     # --------------------------
 
     # Check if model file exists and is valid
