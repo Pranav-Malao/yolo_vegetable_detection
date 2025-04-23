@@ -1,0 +1,26 @@
+1.singles:
+Single potato,
+Single onion,
+Single cucumber,
+Single tomato,
+2.Group Images (Same Class):
+some potatoes,
+some onions,
+some cucumbers,
+some tomatoes,
+3.Mixed Class Group Images:
+Combo No.	Combination
+1	Potato + Onion
+2	Potato + Cucumber
+3	Potato + Tomato
+4	Onion + Cucumber
+5	Onion + Tomato
+6	Cucumber + Tomato
+7	Potato + Onion + Cucumber
+8	Potato + Onion + Tomato
+9	Potato + Cucumber + Tomato
+10	Onion + Cucumber + Tomato
+11	All 4 together (Potato + Onion + Cucumber + Tomato)
+4.Negative Images:
+"spoon", "fork", "knife", "plate", "glass", "cup", "pan", "kadhai", "basket",
+"tokri", "jar", "microwave", "rolling pin", "pressure cooker", "cutting board"
